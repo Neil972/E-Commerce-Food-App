@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# name of the file which isn't need to be added
+node_modules
+
+# name of the file extensions which isn't need to be added
+.png
+.env
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ZomatoClone85Backend\.env

@@ -1,0 +1,378 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bgDiv{
+  background-image: url("./images/foodBG1321725.webp");
+  height: 55vh;
+  background-size: 100vh ;
+}
+.logoDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.logoDiv > img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.logoDiv > h1{
+  color: white;
+  font-weight: 500;
+}
+
+.select{
+  height: 5vh;
+}
+.inp{
+  width: 50vw;
+  margin-left: 20px;
+  height: 4.7vh;
+}
+.srchBtn{
+  height: 4.7vh;
+  margin-left: 10px;
+}
+
+/* Restaurant Component */
+.Restaurant > img {
+  height: 100px;
+  width: 100px;
+}
+
+.Restaurant{
+  display: grid;
+  grid-template-columns: auto 55% auto;
+  background-color: burlywood;
+  border-radius: 20px;
+  width:45vw;
+  margin-top: 15px;
+  margin-left: 33.5vw;
+  opacity: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.Restaurant > img{
+  border-radius: 20px;
+}
+/* headings2 */
+.headings2{
+  width: 80%;
+  margin: auto;
+}
+/* container2 */
+.container2{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 20px;
+  column-gap: 23px;
+  margin-top:20px;
+}
+
+/* mealtype.js */
+.mealtypeCard{
+  display: flex;
+  gap: 20px;
+  box-shadow: 7px 7px 10px 2px gray;
+}
+
+.mealtypeCard > img{
+  height: 125px;
+  width:125px
+}
+ .mealContent{
+  display: flex;
+ }
+
+ /* Login */
+ .Login{
+  padding-top: 10px;
+ }
+ .Login > div {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap:10px;
+ }
+
+ .AccRBtn{
+  background-color: transparent;
+  border:1px solid white;
+  color: white;
+  border-radius:8px;
+  height: 25px;
+ }
+
+ .X{
+  color: black;
+ }
+
+ /* AccountParent */
+
+ .accParent {
+  position:absolute;
+  z-index:2;
+  backdrop-filter:blur(15px);
+  height: 100vh;
+  width: 96vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom:15px ;
+  left:1vw;
+  top: 40px;
+  /* border: 5px solid orange; */
+  border-radius: 50px;
+ }
+
+ .accnt{
+  background-color: white;
+  height: 40vw;
+  width: 60vh;
+  border-radius: 10px;
+ }
+
+ .inpts{
+  width:28.5vw;
+  margin-top:10px;
+  height: 35px;
+ }
+
+ /* account js button */
+ .accntBtnP{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ }
+
+ .accntBtnP > input{
+  height: 35px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+ }
+
+ .googleDiv{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+ }
+
+ .googleDiv >GoogleLogin {
+  width:80%;
+ }
+
+ .accHr{
+  width: 80%;
+  margin-top:5px;
+ }
+/* for menu cards at app.js */
+ .navlink{
+  color:black;
+ }
+ .navlink:hover{
+  color:orange;
+ }
+
+ /* filter.js */
+ .width80{
+  width:80%;
+  margin: auto;
+ }
+
+ .gridContainer1{
+  display: grid;
+  grid-template-columns:35% 65%;
+  column-gap: 25px;
+ }
+
+ .gridContainer1 > div:first-child{
+  box-shadow: 5px 4px 5px 1px gray;
+ }
+
+ .gridContainer2{
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 25px;
+  padding-bottom:15px;
+ }
+
+ .boxShadow{
+  box-shadow: 5px 4px 5px 1px gray;
+ }
+
+ .mealCard{
+  display: flex;
+  justify-content: flex-start;
+ }
+.mealCardHeading{
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ .mealCard > img{
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  margin: 15px;
+ }
+
+ .mealCardInfo{
+  display: grid;
+  grid-template-columns: 20% auto;
+ }
+
+ .subHeadingFilter{
+  font-weight: 600;
+  margin-bottom: 5px;
+ }
+
+ /* RestaurantPage */
+ .restaurantHeading{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .orderBtn{
+  height: 50px;
+  width: 100px;
+  background-color: brown;
+  color:white;
+  border: 1px solid white;
+  border-radius: 18px;
+  font-size: larger;
+ }
+
+ .menu{
+  display: flex;
+  justify-content: space-between;
+  gap:15px;
+  width: 85%;
+  margin: auto;
+ }
+
+ .menuItem{
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: 600;
+ }
+
+ .menuItem1{
+  color: rgb(15, 151, 236);
+ }
+
+ .menuItem2{
+  color: lightslategray;
+ }
+
+ .menuContent{
+  display: flex;
+  margin-bottom:8px;
+ }
+
+ .menuContent > img{
+  height:100px;
+  width:100px;
+  border-radius:10px;
+  margin-left: 8px;
+  margin-right:8px;
+  margin-bottom:8px;
+ }
+
+ .menuHeading{
+  width: 90%;
+  margin: auto;
+ }
+
+ .orderModalWindow{
+  position: absolute;
+  left: 0vw;
+  top:0vh;
+  backdrop-filter: blur(10px);
+  z-index:2;
+  height:200vh ;
+  width:100vw;
+ }
+.orderModalWindow > div{
+  width: 85%;
+  background-color: white;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 8vh;
+  border-radius:10px;
+  height: 80vh;
+  box-shadow: 0 0 20px 2px black;
+  padding-bottom: 30px;
+}
+
+.itemCountDiv{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+}
+.itemCountDiv > input{
+  height:35px;
+  width:35px;
+  border-radius:50%;
+  font-size:x-large;
+  background-color: transparent;
+  color: gray;
+  border:1px solid gray
+}
+
+.googleInfo{
+  display: flex;
+  justify-content: space-between;
+  padding-top:3px ;
+  padding-bottom:3px ;
+}
+
+/* payment.js */
+.orderPlacedDiv{
+  display: flex;
+  gap:15px;
+}

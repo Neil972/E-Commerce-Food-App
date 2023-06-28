@@ -1,0 +1,464 @@
+[
+  {
+    "_id": "607d924e3ba379230105bfec",
+    "restaurant_name": "Kandas",
+    "restaurant_id": "605dccdc96b0c919d0cf86d2",
+    "menu_items": [
+      {
+        "name": "Idiyappam with Vegetable Kurma",
+        "description": "Idiyappam is prepared using rice flour and is served with vegetable kurma and sweet coconut milk",
+        "price": 100,
+        "qty": 0,
+        "image_url": "assets/idiyappam.jpg"
+      },
+      {
+        "name": "Vegetarian Full Meals",
+        "description": "White rice, Sambar, Potato fry, Keerai masiyal,Payasam, Appalam, Banana, Pickle",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/full meals.jpg"
+      },
+      {
+        "name": "Vadai",
+        "description": "Vadai is serverd with Coconut Chutney, Pudina Chutney",
+        "price": 50,
+        "qty": 0,
+        "image_url": "assets/vadai.jpg"
+      },
+      {
+        "name": "Venpongal",
+        "description": "Ven pongal is best served with coconut chutney, pickle, tiffin sambar or gotsu",
+        "price": 80,
+        "qty": 0,
+        "image_url": "assets/ven-pongal.jpg"
+      },
+      {
+        "name": "Mushroom briyani",
+        "description": "Mushroom biryanis are best served with Cucumber Raita",
+        "price": 180,
+        "qty": 1,
+        "image_url": "assets/mushroom_rice.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d948a3ba379230105bfed",
+    "restaurant_name": "Arusuvai",
+    "restaurant_id": "605dcd1996b0c919d0cf86d7",
+    "menu_items": [
+      {
+        "name": "Variety Rice",
+        "description": "Six types of rice served with side dishes",
+        "price": 120,
+        "qty": 0,
+        "image_url": "assets/variety rice.jpg"
+      },
+      {
+        "name": "Raw Jackfruit Biryani ",
+        "description": "Aromatic, delicious and spicy raw jackfruit briyani served with onion raita and kesari",
+        "price": 200,
+        "qty": 0,
+        "image_url": "assets/raw jackfruit brinji.jpg"
+      },
+      {
+        "name": "Appam",
+        "description": "Thin and crispy around the edges with soft fluffy center appam taste delicious when paired with vegetable stew for a hearty vegetarian breakfast",
+        "price": 90,
+        "qty": 0,
+        "image_url": "assets/appam.jpeg"
+      },
+      {
+        "name": "Chettinad Pepper Paneer Masala",
+        "description": "Served as a side to dal rice or sambar rice combo meal or served as dry sabzi for roti and chapati",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/Paneer-Chettinad-Curry-Recipe.webp"
+      },
+      {
+        "name": "Sambar Sadam",
+        "description": "",
+        "price": 70,
+        "qty": 0,
+        "image_url": "assets/Sambar sadam.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d96ee3ba379230105bfee",
+    "restaurant_name": "Arya's",
+    "restaurant_id": "605dcd5a96b0c919d0cf86dc",
+    "menu_items": [
+      {
+        "name": "Panneer Butter Masala",
+        "description": "Authentic northindian taste",
+        "price": 200,
+        "qty": 0,
+        "image_url": "assets/instant-pot-paneer-butter-masala-featured.jpg"
+      },
+      {
+        "name": "Paal Paniyaram",
+        "description": "Paniyaram soaked in Milk served Hot",
+        "price": 100,
+        "qty": 0,
+        "image_url": "assets/Paal paniyaram.jpg"
+      },
+      {
+        "name": "Ghee Dosa",
+        "description": "Crisp roasted dosa laced with the flavors of ghee",
+        "price": 150,
+        "qty": 1,
+        "image_url": "assets/arusuvai breakfast.jpg"
+      },
+      {
+        "name": "Poori",
+        "description": "Poori is a common side in Indian cuisine and is typically served with a dry or curried potato dish",
+        "price": 120,
+        "qty": 0,
+        "image_url": "assets/poori-recipe.jpeg"
+      },
+      {
+        "name": "Mushroom Pepper fry",
+        "description": "This dish is made as a side to sambar rice or rasam rice combination, but can also be served as a starter.",
+        "price": 120,
+        "qty": 0,
+        "image_url": "assets/mushroom-pepper-fry-recipe-1.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d97923ba379230105bfef",
+    "restaurant_name": "Asif Briyani",
+    "restaurant_id": "605dcd8a96b0c919d0cf86e1",
+    "menu_items": [
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken grilled in fire and it is delicious to eat.",
+        "price": 250,
+        "qty": 0,
+        "image_url": "assets/Tandoori-Chicken-750x750.jpg"
+      },
+      {
+        "name": "MUTTON Briyani",
+        "description": "Amazing mutton briyani served with Garlic raita, Bread halwa and Chicken 65.",
+        "price": 300,
+        "qty": 0,
+        "image_url": "assets/mutton briyani.jpg"
+      },
+      {
+        "name": "Mutton Ceylon Parotta",
+        "description": "Serve Veechu Parotta Or Ceylon Parotta along with a spicy South Indian Curry",
+        "price": 250,
+        "qty": 0,
+        "image_url": "assets/MuttonCeylonParotta.jpg"
+      },
+      {
+        "name": "Kiwi Kooler",
+        "description": "Kiwi Cooler is a refreshing summer beverage prepared with kiwi, lemon juice, sugar syrup, mint leaves and soda",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/kiwi-crush.jpg"
+      },
+      {
+        "name": "Muradabadi Chicken Briyani",
+        "description": "Muradabadi biryani is a traditional Indian biryani variety named after the city of Moradabad in Uttar Pradesh.",
+        "price": 250,
+        "qty": 0,
+        "image_url": "assets/Muradabadi-chicken-biryani-1200x900.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d98153ba379230105bff0",
+    "restaurant_name": "Pannai Veedu",
+    "restaurant_id": "605dcdb996b0c919d0cf86e6",
+    "menu_items": [
+      {
+        "name": "Mutton Kola Urundai",
+        "description": "Served with pudhina chutney and tomato sauce",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/mutton-meat-balls.jpg"
+      },
+      {
+        "name": "FISH KEBAB",
+        "description": "Kebab served hot, delicious and spicy.",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/FISH KEBAB.jpg"
+      },
+      {
+        "name": "Chicken Briyani",
+        "description": "Briyani served with Pineapple raita, Mint chutney and Carrot halwa",
+        "price": 300,
+        "qty": 0,
+        "image_url": "assets/chicken-biryani.jpg"
+      },
+      {
+        "name": "Squid fry",
+        "description": "Squid fry is a shallow fried squid recipe coated with spices and herbs",
+        "price": 180,
+        "qty": 0,
+        "image_url": "assets/Squid fry.jpg"
+      },
+      {
+        "name": "Chicken chukka",
+        "description": "very delicious, flavorful and aromatic dish where chicken is cooked in dry form in oil and ghee without adding any water",
+        "price": 200,
+        "qty": 1,
+        "image_url": "assets/chicken chukka.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d98943ba379230105bff1",
+    "restaurant_name": "Le Arabian",
+    "restaurant_id": "605dcddf96b0c919d0cf86eb",
+    "menu_items": [
+      {
+        "name": "Mutton Mandi",
+        "description": "Briyani served with goat leg piece, veg salad and onion raita",
+        "price": 450,
+        "qty": 0,
+        "image_url": "assets/mandi mutton.jpeg"
+      },
+      {
+        "name": "Chicken Tikka",
+        "description": "Chiecken Tikka served with 7UP Nimbooz [350 ml].",
+        "price": 175,
+        "qty": 0,
+        "image_url": "assets/Chicken-Tikka-Skewers-square-FS-77.jpg"
+      },
+      {
+        "name": "Green Apple Mojito",
+        "description": "Green Apple Mojito is prepared with white rum, green apple syrup, lemon juice, soda and mint leaves; and is an apt drink for a summer party",
+        "price": 200,
+        "qty": 0,
+        "image_url": "assets/green-apple-mojito.jpg"
+      },
+      {
+        "name": "Fruit Salad Icecream",
+        "description": "A really fun and easy salad recipe made with a medley of fresh fruits and nuts, topped with scoops of ice cream",
+        "price": 150,
+        "qty": 1,
+        "image_url": "assets/fruit_cream_featured.jpeg"
+      },
+      {
+        "name": "Chicken 65",
+        "description": "Chicken 65 is a spicy, deep-fried starter snack, appetizer, or a full meal served with naan",
+        "price": 100,
+        "qty": 1,
+        "image_url": "assets/Chicken-Leg-Fry.jpg"
+      },
+      {
+        "name": "Falafel",
+        "description": "Falafel is a deep-fried ball or patty-shaped fritter of Arab origin, featuring in Middle Eastern cuisine made from broad beans, ground chickpeas",
+        "price": 180,
+        "qty": 1,
+        "image_url": "assets/Crispy-Falafel-Recipe-1200.jpg"
+      }
+    ]
+  },
+  {
+    "_id": "607d990a3ba379230105bff3",
+    "restaurant_name": "AVS Imperiaa",
+    "restaurant_id": "605dce0996b0c919d0cf86f0",
+    "menu_items": [
+      {
+        "name": " French Onion Soup",
+        "description": "Served gratinéed with croutons or a larger piece of bread covered with cheese floating on top",
+        "price": 250,
+        "qty": 0,
+        "image_url": "assets/French-onion-soup-recipe.jpg"
+      },
+      {
+        "name": "Lasagna",
+        "description": "Made with easy meat sauce as the base, often ruffled noodles and a tomato or white sauce",
+        "price": 350,
+        "qty": 0,
+        "image_url": "assets/Lasagna.jpeg"
+      },
+      {
+        "name": "Madeleine cake",
+        "description": "Madeleines are very small sponge cakes with a distinctive shell-like shape acquired from being baked in pans with shell-shaped depressions",
+        "price": 450,
+        "qty": 0,
+        "image_url": "assets/Madeleine cake.jpg"
+      },
+      {
+        "name": "Panzerotti",
+        "description": "A panzerotto, is a savory turnover, that originated in Central and Southern Italian cuisine, which resembles a small calzone, both in shape and dough used for its preparation",
+        "price": 200,
+        "qty": 1,
+        "image_url": "assets/Panzerotti.jpg"
+      },
+      {
+        "name": "Potatoes Dauphinoise",
+        "description": "French classic is made with layers upon layers of finely sliced potatoes, cream, butter and cheese with a hint of fresh thyme.",
+        "price": 250,
+        "qty": 1,
+        "image_url": "assets/French-Dishes-Potatoes-Dauphinoise.webp"
+      },
+      {
+        "name": "Banana Split",
+        "description": "American ice cream-based dessert consisting of a peeled banana cut in half lengthwise, and served with ice-cream and sauce between the two pieces",
+        "price": 200,
+        "qty": 1,
+        "image_url": "assets/Banana split.webp"
+      },
+      {
+        "name": "Spaghetti-alla-Carbonara",
+        "description": "Italian pasta dish made with eggs, pecorino romano, guanciale and black pepper",
+        "price": 250,
+        "qty": 1,
+        "image_url": "assets/Spaghetti-alla-Carbonara.jpg"
+      },
+      {
+        "name": "Currywurst",
+        "description": "Currywurst is a fast food dish of German origin consisting of steamed, fried sausage, usually pork, typically cut into bite-sized chunks and seasoned with curry ketchup, a sauce based on spiced ketchup or tomato paste topped with curry powder, or a ready-made ketchup seasoned with curry and other spices.",
+        "price": 250,
+        "qty": 1,
+        "image_url": "assets/Currywurst.jpg"
+      },
+      {
+        "name": "Goulash",
+        "description": "A soup or stew of meat and vegetables seasoned with paprika and other spices.",
+        "price": 280,
+        "qty": 1,
+        "image_url": "assets/goulash-1640024815.jpeg"
+      }
+    ]
+  },
+  {
+    "_id": "607d99dc3ba379230105bff4",
+    "restaurant_name": "Seagulls",
+    "restaurant_id": "605dce3296b0c919d0cf86f5",
+    "menu_items": [
+      {
+        "name": "Crab Lollipop",
+        "description": "Made from a deep-fried puree of shrimp, soy sauce, egg and cooking cream",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/Crab-Lollipop.jpg"
+      },
+      {
+        "name": "Fish Finger",
+        "description": "Made using a whitefish, such as cod, hake, haddock, shark, or pollock, which has been battered or breaded",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/Fish-finger.jpg"
+      },
+      {
+        "name": "Prawn Kebab",
+        "description": "Delicious and irresistible baked prawn recipe with mint chutney or tomato ketchup",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/21-prawn-kebab.jpg"
+      },
+      {
+        "name": "Orange Upside-Down Cake",
+        "description": "Orange upside-down cake is a dense yet moist cake with sinful caramel and candied oranges on top.",
+        "price": 200,
+        "qty": 1,
+        "image_url": "assets/EP-201502-orangeupsidedowncake-6x4.webp"
+      },
+      {
+        "name": "Tandoori Lobster",
+        "description": "Tandoori Lobster is made with lobster tails marinated in spices and yogurt and grilled in a tandoor grill and served with yogurt and mint sauce. ",
+        "price": 150,
+        "qty": 1,
+        "image_url": "assets/tandoori lobster.jpeg"
+      },
+      {
+        "name": "Rocky road icecream",
+        "description": "A silky chocolate ice cream base mixed with walnuts, chocolate chips, and mini marshmallows takes this ice cream to another level",
+        "price": 210,
+        "qty": 1,
+        "image_url": "assets/Rocky road icecream.webp"
+      }
+    ]
+  },
+  {
+    "_id": "607d9a253ba379230105bff5",
+    "restaurant_name": "Juice World",
+    "restaurant_id": "605dce5c96b0c919d0cf86fa",
+    "menu_items": [
+      {
+        "name": "Chicken Shawarma",
+        "description": "Chicken, lettuce, tomato slices, onion, yogurt sauce and warmed flatbreads",
+        "price": 215,
+        "qty": 0,
+        "image_url": "assets/chicken-shawarma.jpg"
+      },
+      {
+        "name": "Special Falooda",
+        "description": "Mughlai cuisine version of a cold dessert made with noodles",
+        "price": 150,
+        "qty": 0,
+        "image_url": "assets/special faloo.jpg"
+      },
+      {
+        "name": "Schezwan Fried Rice ",
+        "description": "Zesty vegetarian and vegan stir-fried rice variant that features a bold and spicy homemade schezwan sauce loaded with healthy mix vegetables, aromatics and herbs",
+        "price": 300,
+        "qty": 0,
+        "image_url": "assets/schezwan veg friedrice.webp"
+      },
+      {
+        "name": "Chicken cutlet",
+        "description": "deliciously crisp deep fried patties of spicy chicken mixture with veggies within, serves as a great appetizer or snacks.",
+        "price": 80,
+        "qty": 0,
+        "image_url": "assets/chicken-cutlet-recipe.jpg"
+      },
+      {
+        "name": "Roasted Almond Icecream",
+        "description": "Roasted Almond Ice Cream is made with fresh with sweet almond ice cream mixed with crunchy almonds.",
+        "price": 150,
+        "qty": 1,
+        "image_url": "assets/Roasted almond icecream.webp"
+      }
+    ]
+  },
+  {
+    "_id": "607d9aa63ba379230105bff6",
+    "restaurant_name": "Sutta Kozhi",
+    "restaurant_id": "605dce8d96b0c919d0cf86ff",
+    "menu_items": [
+      {
+        "name": "Chicken Tandoori(full)",
+        "description": "South Asian dish of chicken marinated in yogurt and spices and roasted in a tandoor, a cylindrical clay oven",
+        "price": 350,
+        "qty": 0,
+        "image_url": "assets/tandoori-chicken.jpg"
+      },
+      {
+        "name": "Spicy Smoked Charcoal Fish ",
+        "description": "Nice smokey flavor, crispy skin, and moist and tender pieces of fish",
+        "price": 200,
+        "qty": 0,
+        "image_url": "assets/full fish.jpg"
+      },
+      {
+        "name": "Dark Spicy BBQ",
+        "description": "Spicy BBQ Chicken is a spicy chicken marinade using chile garlic sauce dark soy sauce and apple to balance the sweet",
+        "price": 300,
+        "qty": 0,
+        "image_url": "assets/korean-bbq-chicken.jpg"
+      },
+      {
+        "name": "Mutton Leg Roast",
+        "description": "This is a super easy and delicious mutton leg roast recipe or simply raan recipe. The recipe is simple, the trick in making raan roast is the soft melt-in-the-mouth meat that you get from this recipe.",
+        "price": 350,
+        "qty": 1,
+        "image_url": "assets/mutton leg roast.jpg"
+      },
+      {
+        "name": "Halloumi-sandwich",
+        "description": "Halloumi is a Cypriot firm, brined, slightly springy white cheese",
+        "price": 180,
+        "qty": 1,
+        "image_url": "assets/Halloumi-sandwich-with-lemon.jpg"
+      }
+    ]
+  }
+]
