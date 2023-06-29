@@ -69,7 +69,7 @@ function RazorPay (){
             return console.error(e)
         }
         // sending a post req to create a Payment Order
-        await axios.post("http://localhost:5000/razorPayPayment/order",imprtdAccptdOrdr.yourOrder).then((x)=>{
+        await axios.post("https://zomatoclone-backend-s363.onrender.com/razorPayPayment/order",imprtdAccptdOrdr.yourOrder).then((x)=>{
             console.log("razorPayPost after Payment",x)
         let successOptions={
             amount:x.data.amount,
@@ -81,7 +81,7 @@ function RazorPay (){
             logo:logo,
             handler:async(response)=>{
                 try{
-                    let successResp=await axios.post("http://localhost:5000/razorPayPayment/success",{
+                    let successResp=await axios.post("https://zomatoclone-backend-s363.onrender.com/razorPayPayment/success",{
                         razorpaySignature:response.razorpay_signature,
                         razorpayPaymentId:response.razorpay_payment_id,
                         orderCreation:x.data.id,
