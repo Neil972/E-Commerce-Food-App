@@ -107,6 +107,7 @@
   row-gap: 20px;
   column-gap: 23px;
   margin-top:20px;
+  padding-bottom:30px ;
 }
 
 /* mealtype.js */
@@ -114,6 +115,7 @@
   display: flex;
   gap: 20px;
   box-shadow: 7px 7px 10px 2px gray;
+  padding-right:5px ;
 }
 
 .mealtypeCard > img{
