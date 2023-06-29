@@ -29,7 +29,7 @@ function RestaurantPage(){
             getRestaurantData()
         }
         async function getRestaurantData(){
-            await axios.get(`http://localhost:5000/restaurantDetails?resName=${paramsMprtd["name"]}`)
+            await axios.get(`https://zomatoclone-backend-s363.onrender.com/restaurantDetails?resName=${paramsMprtd["name"]}`)
             .then((resDetails)=>{
                 console.log(resDetails,"resDetails")
                 setrstrntDtls(resDetails.data)
@@ -93,8 +93,8 @@ function RestaurantPage(){
                 }).catch((e)=>{
                     console.log("error",e)
                 })
-                // axios.get(`http://localhost:5000/userSpecificOrder?userOrderInfo=${JSON.stringify(userOrderInfo)}`)
-                await axios.post(`http://localhost:5000/userSpecificOrder`,userOrderInfo)
+                // axios.get(`https://zomatoclone-backend-s363.onrender.com/userSpecificOrder?userOrderInfo=${JSON.stringify(userOrderInfo)}`)
+                await axios.post(`https://zomatoclone-backend-s363.onrender.com/userSpecificOrder`,userOrderInfo)
                 .then((x)=>{
                     console.log("orderResponse data",x.data)
                     setAccptdOrdr(x.data)
@@ -315,7 +315,7 @@ function RestaurantPage(){
                 <span>
                     <input className="orderBtn" type="button" value={`Order`} onClick={async (event)=>{
                         event.preventDefault()
-                        await axios.post("http://localhost:5000/menuDetails",{restaurant:paramsMprtd["name"]})
+                        await axios.post("https://zomatoclone-backend-s363.onrender.com/menuDetails",{restaurant:paramsMprtd["name"]})
                         .then((x)=>{
                             console.log("menu",x)
                             setmenuData(x.data)
