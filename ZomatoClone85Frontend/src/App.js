@@ -25,7 +25,7 @@ function App() {
 
     async function getData(){
       try{
-        let respJson=await axios.post("http://localhost:5000",{needed:"getLocations"})
+        let respJson=await axios.post("https://zomatoclone-backend-s363.onrender.com",{needed:"getLocations"})
         console.log("respJson",respJson)
         await setLctn(respJson.data)
         // console.log("lctn",lctn)
@@ -43,7 +43,7 @@ function App() {
 
     async function getMeals(){
       try{
-        let mealRes=await axios.get("http://localhost:5000/getMealTypes")
+        let mealRes=await axios.get("https://zomatoclone-backend-s363.onrender.com/getMealTypes")
         console.log("mealRes",mealRes)
         setMealtype([...mealType,...mealRes.data.meals])
       }
@@ -59,7 +59,7 @@ function App() {
     async function dataAccInp(){
       try{
         console.log("inpSttFor Search",inpStt)
-        let response=await axios.post("http://localhost:5000/dataAccInp",inpStt)
+        let response=await axios.post("https://zomatoclone-backend-s363.onrender.com/dataAccInp",inpStt)
         console.log("Search Response",response)
         let repData=response.data
         console.log("repData",repData)
