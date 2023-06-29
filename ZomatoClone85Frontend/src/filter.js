@@ -36,7 +36,7 @@ function Filter(){
             getFoodAccToMealtype(JSON.parse(qryPrmStt.get("mealType")))
         }
         async function getFoodAccToMealtype(mealtypeVal){
-            await axios.get(`http://localhost:5000/getMealAccToMealtype?mealType=${mealtypeVal}`).then((x)=>{
+            await axios.get(`https://zomatoclone-backend-s363.onrender.com/getMealAccToMealtype?mealType=${mealtypeVal}`).then((x)=>{
                 console.log("getFoodAccToMealtype",x.data.foodAccMealtype)
                 setMealtypeArr(x.data.foodAccMealtype)
             }).catch((e)=>{
@@ -51,7 +51,7 @@ function Filter(){
     useEffect(()=>{
         getLocation()
         async function getLocation(){
-            await axios.post("http://localhost:5000",{needed:"getLocations"}).then((x)=>{
+            await axios.post("https://zomatoclone-backend-s363.onrender.com",{needed:"getLocations"}).then((x)=>{
                 console.log("locations in filter",x.data)
                 setLctn(x.data)
             }).catch((e)=>{
@@ -69,7 +69,7 @@ function Filter(){
         }
 
         async function gtMlsAccPrc(){
-            await axios.get(`http://localhost:5000/gtMlsAccPrc?mealType=${qryPrmStt.get("mealType")}&prcRng=${price}`)
+            await axios.get(`https://zomatoclone-backend-s363.onrender.com/gtMlsAccPrc?mealType=${qryPrmStt.get("mealType")}&prcRng=${price}`)
             .then((res)=>{
                 console.log('meals acc to pric Res Data',res.data)
                 setMealtypeArr(res.data)
@@ -105,7 +105,7 @@ function Filter(){
                                 radioRef.current[prpNm].checked=false
                             }
                             async function filterSelectPost(slctStr){
-                                await axios.post("http://localhost:5000/filterSelect",
+                                await axios.post("https://zomatoclone-backend-s363.onrender.com/filterSelect",
                                 {option:slctStr.split(","),mealTypeId:qryPrmStt.get("mealType")}).then((j)=>{
                                     console.log("filterRes",j)
                                     setMealtypeArr(j.data)
