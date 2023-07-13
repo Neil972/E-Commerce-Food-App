@@ -152,7 +152,7 @@ function RazorPay (){
         })}
         </div>
         </div>
-        // <h3>Total Price:₹{paidPrice}</h3>
+        
         <div style={{color:"grey"}}>
         <h1>{
             (orderStatus)?
