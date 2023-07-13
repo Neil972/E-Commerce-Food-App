@@ -57,6 +57,7 @@ function RazorPay (){
     }
     let [confirmedOrder,setConfirmedOrder]=useState([])
     let [paidPrice,setPaidPrice]=useState(0)
+    let [orderStatus,setOrderStatus]=useState(null)
 
     async function attachNDisplayRazorPay(){
         try{
@@ -95,6 +96,7 @@ function RazorPay (){
 
                     setConfirmedOrder([...successResp.data.confirmed.userOrder])
                     setPaidPrice(successResp.data.confirmed.totalPrice)
+                    setOrderStatus({...successResp.data.confirmed})
                     orderPlacedRef.current.style.display="block"
                 }
                 catch(e){
@@ -142,7 +144,7 @@ function RazorPay (){
 
         <div ref={orderPlacedRef} className="orderPlacedDiv"
         style={{display:(confirmedOrder.length===0)?"none":"flex",justifyContent:"space-around"}}>
-        <div style={{display:"flex",gap:"20px"}}>
+        <div style={{display:"flex",gap:"20px",color:"grey"}}>
         <h3>Your Order:</h3>
         <div>
         {confirmedOrder.map((x)=>{
@@ -150,7 +152,19 @@ function RazorPay (){
         })}
         </div>
         </div>
-        <h3>Total Price:₹{paidPrice}</h3>
+        // <h3>Total Price:₹{paidPrice}</h3>
+        <div style={{color:"grey"}}>
+        <h1>{
+            (orderStatus)?
+                ((orderStatus.paid===true)?
+                `Thank you for choosing us ${orderStatus.name}`
+                :`Sorry for Inconvinience please try to Pay again after some time`)
+            :`Sorry for Inconvinience please try to Pay again after some time`
+            }</h1>
+            <h2>Total Price:&nbsp;₹{paidPrice}</h2>
+            <h3>Delivering your food to: &nbsp;{(orderStatus)?orderStatus.address:null}</h3>
+            {/* <h3></h3> */}
+        </div>
         </div>
         </div>
 
