@@ -210,7 +210,7 @@ function Login(){
                 }
             </div>
             {/* login and create Acc btn's */}
-            <div style={{display:!gProfile?"flex":"none"}}>
+            <div style={{display:!gProfile?"none":"none"}}>
                 <button style={{display:!dfltPRfl?"inline":"none"}} ref={lgnAccH} 
                 className="AccRBtn"
                 onClick={(event)=>{
